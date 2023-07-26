@@ -1,0 +1,52 @@
+PAGE PLANNING WITH RELATIVE DOCUMENTS
+
+Ganto yan, may 3 types of work na need gawin.
+   1. Addition of narratives:
+      - dadagdagan lang yung mga dati nang nasa page
+   2. Rebuild of old pages:
+      - Irere-imagine or irerenovate yung dating page with new narrative documents
+   3. Making New Pages
+      - self explanatory 
+
+
+HEADER: Button Arrangement
+   - NEWS
+   - PROCESS
+   - CATEGORIES
+   - ABOUT US
+
+> HOMEPAGE (REBUILD)
+   > remove the eligibility button
+   > DOCUMENT: HOMEPAGE.docx
+
+1. NEWS
+   - wala pang napagusapan dito, ako na siguro muna bahala here 
+
+2. PROCESS (NEW PAGES)
+   - Process will now have a dropdown page feature. The dropdown will contain links of the ff.
+      > Family Based (PROCESS OF FAMILY BASED.docx)
+      > Study & Exchange (PROCESS OF J1.docx)
+      > Temporary Employment (PROCESS OF H2A.docx + PROCESS OF EB3.docx)
+   - Each tab/page will contain a button just like homepage (CHECK ELIGIBILITY) after the narratives. This button will lead them to the respective "CATEGORIES" tab which contains the "ELIGIBILITY FORM (formerly INTEREST FORM)" for each visa
+
+3. CATEGORIES (ako na bahala dito)
+   - create iterations of the interest form (will now be called eligibility form)
+
+4. ABOUT US (Rebuild)
+   > Remove old Consultation process (disclaimer page)
+   > Old page's narrative was rushed (by maam mimi) may bago siyang ginawang narrative for this page.
+
+   Things to change: 
+      OUR MISSION
+      OUR VISION
+      SPECIALIZATION (yung narrative lang ahh. yung "West Migration Agency LLC ("WMA") assists noncitizens...")
+
+      DOCUMENT: OUR MISSION & SPECIALIZATION docx
+
+5. CONTACT US (ADDITION)
+   - Add more addresses without hindering the old setup
+   - OFFICES:
+      > SACRAMENTO:
+      > CEBU
+      > DAGUPAN
+   

@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-image: url("../../../Photos/background.jpg");
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	nav {
+		width: 25%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.9);
+
+		gap: 20px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: start;
+	}
+		header {
+			width: 100%;
+			height: 20%;
+			padding: 10px;
+			box-sizing: border-box;
+
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+			.header_image {
+				width: 100%;
+				height: 50%;
+				box-sizing: border-box;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+				.header_image a {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+					.header_image img {
+						width: 90%;
+						transition: all 0.30s;
+						box-sizing: border-box;
+					}
+						.header_image img:hover {
+							opacity: 0.8;
+							transition: all 0.30s;
+						}
+			.profile_dock {
+				width: 90%;
+				height: 50%;
+				border-bottom: 1px solid goldenrod;
+
+				display: flex;
+				align-items: center;
+				justify-content: space-evenly;
+			}
+				.profile_picture {
+					width: 15%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					
+				}
+					.profile_picture img {
+						width: 100%;
+						border-radius: 50%;
+					}
+				.profile_details {
+					width: 70%;
+					color: white;
+				}
+					.profile_details h1 {
+						font-size: 20px;
+					}
+				.profile_settings {
+					width: 10%;
+					color: teal;
+					font-size: 20px;
+					cursor: pointer;
+					aspect-ratio: 1/1;
+					position: relative;
+
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+					.profile_settings:hover {
+						opacity: 0.9;
+						transition: all 0.30s;
+					}
+					.dropdown {
+						position: relative;
+						display: inline-block;
+						cursor: pointer;
+					}
+						.dropdown-content {
+							z-index: 1;
+							width: 120px;
+							display: none;
+							position: absolute;
+							box-sizing: border-box;
+							background-color: rgba(0, 0, 0);
+
+							align-items: center;
+							flex-direction: column;
+							justify-content: center;
+						}
+							.dropdown:hover .dropdown-content {
+								display: flex;
+							}
+							.dropdown-content a {
+								width: 100%;
+								display: block;
+								color: white;
+								padding: 8px 12px;
+								text-decoration: none;
+								transition: all 0.30s;
+								box-sizing: border-box;
+
+							}
+								.dropdown-content a:hover {
+									color: goldenrod;
+									transition: all 0.30s;	
+									background-color: #f5f5f5;
+									border-bottom: 1px solid goldenrod;
+								}
+		.nav_options {
+			width: 100%;
+			height: 45%;
+			
+			gap: 10px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: start;
+		}
+			.nav_options_title {
+				width: 90%;
+				height: 50px;
+
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+				.nav_options_title h1 {
+					width: 100%;
+					height: 100%;
+					padding: 10px;
+					color: white;
+					font-size: 22px;
+					text-align: center;
+					letter-spacing: 1.5px;
+					box-sizing: border-box;
+					border-bottom: 2px solid goldenrod;
+
+					display: flex;
+					align-items: center;
+					justify-content: start;
+				}
+			.nav_links{
+				width: 100%;
+				gap: 5px;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				justify-content: center;
+			}
+				.dashboard, .charts, .file_manager {
+					width: 90%;
+					height: 45px;
+					padding: 10px;
+					color: white;
+					transition: all 0.25s;
+					box-sizing: border-box;
+
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				.dashboard:hover, .charts:hover, .file_manager:hover {
+					color: teal;
+					transition: all 0.25s;
+					border-left: 3px solid gold;
+					background-color: rgba(255, 255, 255, 0.1);
+				}
+					.dashboard i, .charts i, .file_manager i {
+						width: 10%;
+						font-size: 18px;
+					}
+					.dashboard a, .charts a, .file_manager a {
+						width: 90%;
+						height: 100%;
+						color: white;
+						font-size: 18px;
+						font-weight: 600;
+						padding-left: 10px;
+						text-align: center;
+						transition: all 0.25s;
+						text-decoration: none;
+						letter-spacing: 1.5px;
+						box-sizing: border-box;
+						font-family: "Montserrat", sans-serif;
+
+						display: flex;
+						align-items: center;
+						justify-content: start;
+					}
+						.dashboard a:hover, .charts a:hover, .file_manager a:hover {
+							color: teal;
+							transition: all 0.25s;
+						}
+	main {
+		width: 80%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: start;
+	}
+		.main_title{
+			width: 100%;
+			height: 50px;
+			padding: 0 10px;
+			color: goldenrod;
+			box-sizing: border-box;
+
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+			.main_title h1 {
+				width: 40%;
+				padding-left: 5px;
+				border-bottom: 2px solid teal;
+			}
